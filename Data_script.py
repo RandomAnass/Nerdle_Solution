@@ -3,6 +3,9 @@ from functools import partial
 import re
 import pickle
 
+## This script was made possible , with the help of user:2823719 Booboo on stackoverflow
+# https://stackoverflow.com/questions/71017273/multiprocessing-of-for-nested-loops/71021661#71021661
+
 
 def process_value(data_set_N, i_1):
     print(i_1)
